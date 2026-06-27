@@ -1,0 +1,43 @@
+"""Maps common insurance terms to standardised policy type values."""
+
+POLICY_TYPE_SYNONYMS: dict[str, str] = {
+    "whole life": "whole_life",
+    "wholelife": "whole_life",
+    "whole-life": "whole_life",
+    "par policy": "whole_life",
+    "participating policy": "whole_life",
+    "term life": "term",
+    "term plan": "term",
+    "level term": "term",
+    "decreasing term": "term",
+    "critical illness": "critical_illness",
+    "ci plan": "critical_illness",
+    "dread disease": "critical_illness",
+    "early ci": "early_critical_illness",
+    "early critical illness": "early_critical_illness",
+    "multi pay ci": "early_critical_illness",
+    "multipay ci": "early_critical_illness",
+    "hospital": "hospital",
+    "integrated shield": "hospital",
+    "ip plan": "hospital",
+    "hospitalisation": "hospital",
+    "medishield": "hospital",
+    "disability income": "disability",
+    "income protection": "disability",
+    "careshield supplement": "careshield_supplement",
+    "eldershield supplement": "careshield_supplement",
+    "personal accident": "personal_accident",
+    "pa plan": "personal_accident",
+}
+
+COVERAGE_CATEGORY_LABELS: dict[str, str] = {
+    "term_life": "Term Life / Death Benefit",
+    "whole_life": "Whole Life Coverage",
+    "critical_illness": "Critical Illness (Late Stage)",
+    "early_critical_illness": "Early Critical Illness",
+    "hospital": "Hospitalisation",
+    "disability": "Disability Income",
+    "careshield_supplement": "CareShield Life Supplement",
+    "personal_accident": "Personal Accident",
+    "tpd": "Total Permanent Disability (TPD)",
+}

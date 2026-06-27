@@ -1,0 +1,53 @@
+{
+  "source_filename": "sample_term_life.pdf",
+  "policy_number": "TL-2021-123456",
+  "policy_type": "term",
+  "insurer": "Example Life Insurance",
+  "sum_assured": 500000,
+  "tpd_sum_assured": 500000,
+  "coverage_start": "2021-01-01",
+  "coverage_end": "2041-01-01",
+  "maturity_age": 65,
+  "monthly_premium": 80.0,
+  "annual_premium": 960.0,
+  "waiting_period_days": 90,
+  "riders": [
+    {
+      "rider_type": "CI rider",
+      "sum_assured": 100000,
+      "conditions_covered": 37
+    }
+  ],
+  "exclusions": [
+    "Pre-existing conditions declared at time of application are excluded from coverage.",
+    "Death or disability resulting from war, terrorism, or nuclear hazard is excluded."
+  ],
+  "fine_print_clauses": [
+    {
+      "text": "Pre-existing conditions declared at time of application are excluded from coverage.",
+      "page": 8,
+      "category": "exclusion"
+    },
+    {
+      "text": "No claim shall be payable for any disability or death arising directly or indirectly from any pre-existing condition not disclosed at time of application.",
+      "page": 9,
+      "category": "non_disclosure"
+    },
+    {
+      "text": "A waiting period of 90 days applies to critical illness claims from the policy commencement date.",
+      "page": 10,
+      "category": "waiting_period"
+    },
+    {
+      "text": "Coverage excludes participation in hazardous activities including but not limited to motorsports, skydiving, and mountaineering above 4000m.",
+      "page": 11,
+      "category": "hazard"
+    }
+  ],
+  "cash_value": false,
+  "medishield_integrated": false,
+  "ip_ward_tier": null,
+  "missing_fields": [],
+  "low_confidence_fields": [],
+  "unreadable_pages": []
+}

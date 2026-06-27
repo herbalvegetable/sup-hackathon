@@ -1,0 +1,24 @@
+{
+  "age": 35,
+  "gender": "male",
+  "citizenship_status": "sc",
+  "employment_status": "employed",
+  "annual_income": 80000,
+  "dependents": 2,
+  "smoker": false,
+  "employer_group_coverage": {
+    "has_group_coverage": true,
+    "estimated_group_life_sa": 80000,
+    "estimated_group_hospital_tier": "B1",
+    "estimated_group_ci_sa": null
+  },
+  "medical": {
+    "pre_existing_conditions": ["hypertension"],
+    "medications": ["amlodipine"],
+    "family_history": ["heart disease"],
+    "height_cm": 175,
+    "weight_kg": 75,
+    "occupation_risk": "low",
+    "high_risk_activities": []
+  }
+}
